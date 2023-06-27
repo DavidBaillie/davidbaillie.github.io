@@ -1,0 +1,26 @@
+.main-margin {
+    margin-top: 32vh;
+}
+
+.main-button {
+    width: 26em;
+    height: 3em;
+}
+
+.main-spacer {
+    margin-right: 5em;
+}
+
+.main-intro {
+    padding-bottom: 3em;
+}
+
+    .main-intro h1{
+        font-size: 42pt;
+        font-weight: bold;
+    }
+
+    .main-intro p{
+        font-size: 18pt;
+        font-weight: normal;
+    }
