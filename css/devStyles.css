@@ -4,18 +4,19 @@ body {
 
 .dev-sidebar {
     background-color: rgb(24, 24, 24);
-    border-right: 1px solid rgb(200, 200, 200, 0.16);
+    border-right: 1px solid rgb(200, 200, 200, 0.5);
 }
 
 .dev-sidebar-header {
     font-size: 18pt;
     font-weight: 600;
+    letter-spacing: 0.1em;
     color: white;
     width: 100%;
     text-align: center;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    border-bottom: 1px solid rgb(200, 200, 200, 0.16);
+    border-bottom: 1px solid rgb(200, 200, 200, 0.5);
 }
 
 .dev-font {
@@ -24,13 +25,18 @@ body {
 }
 
 .dev-sidebar-item-group {
-
+    padding: 0;
+    margin: 0;
 }
 
 .dev-sidebar-item {
+    padding: 0.35em 2em;
     list-style-type: none;
     color: white;
-
+    font-size: 14pt;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid rgb(200, 200, 200, 0.2);
 }
 
     .dev-sidebar-item a {

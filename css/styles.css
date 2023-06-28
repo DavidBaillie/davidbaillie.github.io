@@ -8,6 +8,10 @@ body {
     min-width: 100%;
 }
 
+.main-body {
+    font-size: 16pt;
+}
+
 .main-margin {
     margin-top: 26vh;
 }
