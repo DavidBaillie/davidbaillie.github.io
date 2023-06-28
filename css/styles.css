@@ -1,5 +1,15 @@
+html {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+}
+
 .main-margin {
-    margin-top: 32vh;
+    margin-top: 26vh;
 }
 
 .main-button {
@@ -24,3 +34,19 @@
         font-size: 18pt;
         font-weight: normal;
     }
+
+
+.sidebar-wrapper {
+    display: flex;
+    align-items: normal;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 15em;
+}
+
+.body-width {
+    width: calc(100vw - 15em);
+}

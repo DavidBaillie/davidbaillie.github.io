@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+.dev-sidebar {
+    background-color: rgb(24, 24, 24);
+    border-right: 1px solid rgb(200, 200, 200, 0.16);
+}
+
+.dev-sidebar-header {
+    font-size: 18pt;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid rgb(200, 200, 200, 0.16);
+}
+
+.dev-font {
+    font-family: Consolas, 'Courier New', monospace;
+    color: white;
+}
+
+.dev-sidebar-item-group {
+
+}
+
+.dev-sidebar-item {
+    list-style-type: none;
+    color: white;
+
+}
+
+    .dev-sidebar-item a {
+        color: white;
+        text-decoration: none;
+    }
