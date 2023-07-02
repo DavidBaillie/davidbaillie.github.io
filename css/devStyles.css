@@ -8,10 +8,11 @@ body {
 }
 
 .dev-sidebar-header {
-    font-size: 18pt;
-    font-weight: 600;
+    font-size: 20pt;
+    font-weight: 500;
     letter-spacing: 0.1em;
     color: white;
+    background-color: black;
     width: 100%;
     text-align: center;
     padding-top: 0.5em;
@@ -23,6 +24,27 @@ body {
     font-family: Consolas, 'Courier New', monospace;
     color: white;
 }
+    .dev-font h1 {
+        padding: 1.5rem 0 0.5rem 1rem;
+        font-size: 22pt;
+        letter-spacing: 0.3em;
+        font-weight: 800;
+    }
+
+    .dev-font h2 {
+        padding: 1.5rem 0 0.5rem 2rem;
+        font-size: 18pt;
+        font-weight: 500;
+    }
+    
+    .dev-font p {
+        font-size: 12pt;
+        padding-left: 3rem;
+    }
+
+    .dev-font td {
+        font-size: 12pt;
+    }
 
 .dev-sidebar-item-group {
     padding: 0;
@@ -42,4 +64,18 @@ body {
     .dev-sidebar-item a {
         color: white;
         text-decoration: none;
+    }
+
+.dev-content-group {
+    padding-bottom: 3rem;
+}
+
+    .dev-content-group table {
+        max-width: 50em;
+        width: 100%;
+        margin-left: 3rem;
+    }
+
+    .dev-content-group td {
+        width: 33%;
     }

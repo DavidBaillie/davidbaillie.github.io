@@ -44,11 +44,11 @@ body {
     display: flex;
     align-items: normal;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 .sidebar {
-    width: 15em;
+    width: 17em;
 }
 
 .body-width {
