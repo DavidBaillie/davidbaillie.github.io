@@ -54,3 +54,9 @@ body {
 .body-width {
     width: calc(100vw - 15em);
 }
+
+@media only screen and (max-device-width:480px) {
+    .body-width {
+        width: 100vw;
+    }
+}

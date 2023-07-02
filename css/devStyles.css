@@ -79,3 +79,49 @@ body {
     .dev-content-group td {
         width: 33%;
     }
+
+.mobile-contact {
+    display: none;
+}
+
+    .mobile-contact a {
+        color: rbg(50, 50, 250, 1);
+        text-decoration: none;
+    }
+
+
+@media only screen and (max-device-width:480px) {
+    .dev-sidebar {
+        display: none;
+    }
+
+    .dev-content-group table {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .dev-content-group td {
+        font-size: 12pt;
+        padding: 0.5em 0.5em;
+    }
+
+    .dev-font h1 {
+        padding: 0.5rem 0 0.2rem 0.5rem;
+        font-size: 22pt;
+        letter-spacing: 0.2em;
+        font-weight: 800;
+    }
+
+    .dev-font p {
+        padding-left: 1em;
+    }
+
+    .project-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mobile-contact {
+        display: inherit;
+    }
+}
